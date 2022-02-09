@@ -5,13 +5,12 @@ import PackageDescription
 let pkg = Package(name: "ProcedureKit")
 
 pkg.products = [
-    .library(name: "ProcedureKit", targets: ["ProcedureKit"]),
+    .library(name: "ProcedureKit", type: .dynamic, targets: ["ProcedureKit"]),
     .library(name: "ProcedureKitCloud", targets: ["ProcedureKitCloud"]),
     .library(name: "ProcedureKitCoreData", targets: ["ProcedureKitCoreData"]),
     .library(name: "ProcedureKitLocation", targets: ["ProcedureKitLocation"]),
     .library(name: "ProcedureKitMac", targets: ["ProcedureKitMac"]),
     .library(name: "ProcedureKitNetwork", targets: ["ProcedureKitNetwork"]),
-    .library(name: "TestingProcedureKit", targets: ["TestingProcedureKit"])
 ]
 
 pkg.targets = [
