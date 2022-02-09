@@ -11,7 +11,7 @@ pkg.products = [
     .library(name: "ProcedureKitLocation", targets: ["ProcedureKitLocation"]),
     .library(name: "ProcedureKitMac", targets: ["ProcedureKitMac"]),
     .library(name: "ProcedureKitNetwork", targets: ["ProcedureKitNetwork"]),
-    .library(name: "TestingProcedureKit", type: .dynamic, targets: ["TestingProcedureKit"])
+    .library(name: "TestingProcedureKit", targets: ["TestingProcedureKit"])
 ]
 
 pkg.targets = [
